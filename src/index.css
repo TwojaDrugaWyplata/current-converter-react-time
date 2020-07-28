@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-size: cover;
+  background-position: center;
+  background-image: url("./background-picture.jpg");
+}
+
+#root {
+  color: #222;
+  font-family: "Merienda", italic;
+}
+
+@media (max-width: 767px) {
+  #root {
+    padding: 20px 10px;
+  }
+}
